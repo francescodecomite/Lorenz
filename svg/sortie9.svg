@@ -1,0 +1,11 @@
+<svg viewBox="0 0 1020 1020" xmlns="http://www.w3.org/2000/svg">
+<polygon points="10,10 1010,10 1010,1210 10,1210 10,1110 510,1110 510,1010 10,1010" fill="none"  stroke="lime" /><circle cx="463.3870611192962" cy="1008.9594104107587"  r="5"  fill="none" stroke="blue"/>
+<circle cx="28.975630908781046" cy="337.1069027694314"  r="5"  fill="none" stroke="blue"/>
+<circle cx="460.5996095720868" cy="902.7495126922754"  r="5"  fill="none" stroke="blue"/>
+<circle cx="134.8590282024229" cy="393.3677011725231"  r="5"  fill="none" stroke="blue"/>
+<circle cx="446.43505987256236" cy="753.6194272779182"  r="5"  fill="none" stroke="blue"/>
+<circle cx="247.6231086172359" cy="464.0485704741286"  r="5"  fill="none" stroke="blue"/>
+<circle cx="458.2875128556342" cy="876.201356811601"  r="5"  fill="none" stroke="blue"/>
+<circle cx="158.17920864074057" cy="399.9509679768562"  r="5"  fill="none" stroke="blue"/>
+<text x=" 530" y=" 1110" fill="none" font-size="2em" stroke="red" >9</text>
+</svg>

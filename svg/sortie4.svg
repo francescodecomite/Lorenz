@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1020 1020" xmlns="http://www.w3.org/2000/svg">
+<polygon points="10,10 1010,10 1010,1210 10,1210 10,1110 510,1110 510,1010 10,1010" fill="none"  stroke="lime" /><circle cx="82.21714530624192" cy="389.3446793420933"  r="5"  fill="none" stroke="blue"/>
+<circle cx="305.3558650436564" cy="420.70886560333736"  r="5"  fill="none" stroke="blue"/>
+<circle cx="122.85941687188331" cy="676.7775287100269"  r="5"  fill="none" stroke="blue"/>
+<circle cx="388.3221243133321" cy="403.4625264421454"  r="5"  fill="none" stroke="blue"/>
+<circle cx="185.15181714801068" cy="484.28311536487547"  r="5"  fill="none" stroke="blue"/>
+<circle cx="230.37820723807087" cy="526.020618258877"  r="5"  fill="none" stroke="blue"/>
+<circle cx="207.77624818802158" cy="551.2932567751332"  r="5"  fill="none" stroke="blue"/>
+<circle cx="245.41109621380056" cy="507.945101399704"  r="5"  fill="none" stroke="blue"/>
+<circle cx="191.5570589847711" cy="570.4270487539156"  r="5"  fill="none" stroke="blue"/>
+<circle cx="263.00407521102943" cy="491.26694696568075"  r="5"  fill="none" stroke="blue"/>
+<circle cx="171.39615086054613" cy="593.0022785045439"  r="5"  fill="none" stroke="blue"/>
+<circle cx="287.3347366196742" cy="466.42270997162734"  r="5"  fill="none" stroke="blue"/>
+<circle cx="152.45038102865976" cy="630.4747844710389"  r="5"  fill="none" stroke="blue"/>
+<circle cx="325.5617617337028" cy="430.8908426756286"  r="5"  fill="none" stroke="blue"/>
+<circle cx="109.54578824471326" cy="688.4431875979776"  r="5"  fill="none" stroke="blue"/>
+<circle cx="406.84861371578654" cy="392.13527714753286"  r="5"  fill="none" stroke="blue"/>
+<circle cx="148.84687070375116" cy="619.0911267893365"  r="5"  fill="none" stroke="blue"/>
+<circle cx="319.18270381829683" cy="440.0392141911483"  r="5"  fill="none" stroke="blue"/>
+<circle cx="115.72217578051188" cy="674.3908962705066"  r="5"  fill="none" stroke="blue"/>
+<circle cx="385.8855525836987" cy="394.4610940984742"  r="5"  fill="none" stroke="blue"/>
+<circle cx="192.72169571217117" cy="513.9626327541391"  r="5"  fill="none" stroke="blue"/>
+<text x=" 530" y=" 1110" fill="none" font-size="2em" stroke="red" >4</text>
+</svg>

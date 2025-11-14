@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="sortie6jolie.svg"
+   id="svg32"
+   version="1.1"
+   viewBox="0 0 1020 1020">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg32"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:cy="362.70956"
+     inkscape:cx="208.58027"
+     inkscape:zoom="2.3570226"
+     showgrid="false"
+     id="namedview34"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     sodipodi:nodetypes="ccccccczsssscszsscc"
+     d="m 10,1010 h 500 v 100 H 10 v 100 H 1010 V 910 c 0,0 -692.51348,11.85516 -708.2,1.4 C 286.11348,900.94484 273,746.4 327,673.8 381,601.2 488.75221,526.08745 476.87281,473.4787 464.99342,420.86996 504.02571,378.44355 392.02,466.69048 280.01429,554.9374 403.89939,646.57844 235.89082,495.54043 67.882251,344.50242 79.40963,353.38427 37.882251,357.70242 c -47.0428121,42.07766 41.469812,95.26737 65.502939,120.81749 50.64445,53.84115 94.03195,136.06399 103.82624,154.00269 9.79428,17.9387 32.85475,67.9083 38.18857,96.4774 10.62065,56.88649 15,175.8 -30,184.8 -114.76565,22.95313 -139.2,9 -189.6,49.2 z"
+     style="fill:none;stroke:#00ff00"
+     id="polygon2" />
+  <circle
+     id="circle4"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="389.32946608054624"
+     cx="50.91342714691498" />
+  <circle
+     id="circle6"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="568.5995046072267"
+     cx="325.4345448734648" />
+  <circle
+     id="circle8"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="674.3777373928878"
+     cx="267.438213787119" />
+  <circle
+     id="circle10"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="485.3546265389955"
+     cx="407.9109529201174" />
+  <circle
+     id="circle12"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="456.9807031751833"
+     cx="151.9872988925316" />
+  <circle
+     id="circle14"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="563.0494420910569"
+     cx="339.15282375692243" />
+  <circle
+     id="circle16"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="701.2495454515579"
+     cx="259.8662432111222" />
+  <circle
+     id="circle18"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="479.60271787453144"
+     cx="427.7052991658058" />
+  <circle
+     id="circle20"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="587.3238355438536"
+     cx="248.52722122974214" />
+  <circle
+     id="circle22"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="575.8068872998333"
+     cx="326.1403788985325" />
+  <circle
+     id="circle24"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="673.420612437375"
+     cx="271.4636645122" />
+  <circle
+     id="circle26"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="492.9982910450884"
+     cx="410.08651341893597" />
+  <circle
+     id="circle28"
+     stroke="blue"
+     fill="none"
+     r="5"
+     cy="477.3227037923639"
+     cx="174.68000243959233" />
+  <text
+     id="text30"
+     stroke="red"
+     font-size="2em"
+     fill="none"
+     y=" 1110"
+     x=" 530">6</text>
+</svg>

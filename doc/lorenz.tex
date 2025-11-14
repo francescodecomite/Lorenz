@@ -1,0 +1,99 @@
+% -----------------------------------------------------------------------------
+% June 1, 2016
+% This file contains a sample Bridges paper in LaTeX format.
+% It has been prepared by Doug McKenna, using previous
+% versions by Craig Kaplan, Reza Sarhangi, and others.
+% It has been vetted using TeXShop 2.36 on Mac OS X (10.6).
+% TeXShop is part of the TeX Live distribution, available
+% at http://www.tug.org/texlive/
+%
+% -----------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+\usepackage{amsmath, amsthm, amssymb}    % May not all be necessary
+\usepackage{bridges}                     % Custom bridges proceedings style
+\usepackage{graphicx}                    % For including pictures
+\usepackage{hyperref}                    % For formatting (clickable) URLs
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry,multicol}
+\usepackage[francais]{babel}
+\usepackage{color}
+\usepackage{listings}
+
+
+\usepackage{color}
+% -----------------------------------------------------------------------------
+
+\title{Représenter une courbe 3D}
+
+\author{Francesco De Comité}
+
+
+% \date{[Draft as of \today]}	% For your own draft purposes
+\date{}				% Suppress any date on submissions
+
+% -----------------------------------------------------------------------------
+
+
+%\newcounter{pattern}
+%\renewcommand{\thepattern}{Drawing patterns}
+\def\nbrebase#1#2{\ensuremath{\overline{\mathtt{#2}\raisebox{2.2mm}{}}_{#1}}}
+
+\begin{document}
+
+\maketitle
+\vspace{-1.2cm}
+
+% Prevent page number 1 from being printed on the first page.
+\thispagestyle{empty}
+
+
+
+\section*{Projet}
+Lors de discussions avec Robin Jamet et Alba Malaga lors du dernier Fabrikathon, j'ai commencé à regarder comment on pouvait construire des courbes en 3D tangibles. Pour fixer 
+les choses, on avait choisi de s'intéresser à l'attracteur de Lorenz, mais ça se généralise sans douleur à n'importe quelle courbe 3D.  L'idée de base est d'imprimer/découper une suite de supports 
+comportant des trous numérotés à travers lesquels on ferait passer la {\em ficelle} représentant la courbe. C'est comme un jeu de {\em relier les nombres}, mais en 3D. 
+
+Plus concrétement, on découpe le volume où se trouve la courbe en $n$ intervalles, et on calcule les points de passage de la courbe à travers chacune des cloisons de l'intervalle. Ensuite, {\em à la main}, on réduit
+la forme des cloisons de ces intervalles au maximum (il faut que ça ne casse pas). C'est ce qu'on voit sur le prototype de la figure \ref{fig:l2}. 
+
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.5\linewidth}
+
+\centering
+\includegraphics[width=\linewidth]{images/lorenz2.jpg}
+\vspace{0.3cm}
+\caption{Att. de Lorenz soutenu par des tiges}
+\label{fig:l1}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[h]{0.5\linewidth}
+\centering
+\includegraphics[width=\linewidth]{images/lorenz1}
+\vspace{0.3cm}
+\caption{Un prototype de support}
+\label{fig:l2}
+\end{minipage}
+\end{figure}
+\vspace{-1cm}
+
+\section*{Avancement présent}
+J'ai écrit le programme qui calcule la position des trous sur chacune des plaques de séparation, et j'ai découpé un premier jeu de supports. Comme on peut le voir sur la photo, les supports masquent tout l'espace
+où évolue la courbe. 
+Autre problème, l'épaisseur des supports (3mm) n'est pas négligeable, et la courbe n'est pas lisse, elle progresse en escalier. 
+\vspace{-0.8cm}
+\section*{Edit}
+J'ai fait une version avec des supports en plexi, voir dans le répertoire ``photos''. 
+\section*{A faire}
+On peut essayer avec des cloisons plus fines et plus transparentes (plexi 1mm ? ), ou bien mettre moins de cloisons. On peut aussi imaginer des supports minimaux en fil de fer, ou en impression 3D, juste une tige
+courbe avec des trous pour faire passer la ficelle. 
+
+Si vous avez des idées pour améliorer, simplifier ou éviter les problèmes actuels, je suis preneur. Pareil si vous voulez un texte plus détaillé, des sources, des exemples, etc. 
+ 
+ 
+ \end{document}
+
+
