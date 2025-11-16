@@ -1,0 +1,23 @@
+<svg viewBox="0 0 1020 1020" xmlns="http://www.w3.org/2000/svg">
+<polygon points="10,10 1010,10 1010,1210 10,1210 10,1110 510,1110 510,1010 10,1010" fill="none"  stroke="lime" /><circle cx="184.31585939983765" cy="555.6550519142444"  r="5"  fill="none" stroke="blue"/>
+<circle cx="420.46569453374815" cy="330.11092750490275"  r="5"  fill="none" stroke="blue"/>
+<circle cx="225.02508283537549" cy="510.3552835555273"  r="5"  fill="none" stroke="blue"/>
+<circle cx="358.4436209813859" cy="374.7817027953914"  r="5"  fill="none" stroke="blue"/>
+<circle cx="173.68594708127694" cy="572.0210826303603"  r="5"  fill="none" stroke="blue"/>
+<circle cx="427.9832127732783" cy="311.593503106639"  r="5"  fill="none" stroke="blue"/>
+<circle cx="232.10968616864625" cy="501.66703110743333"  r="5"  fill="none" stroke="blue"/>
+<circle cx="347.8920116438919" cy="382.97221932081595"  r="5"  fill="none" stroke="blue"/>
+<circle cx="185.75785663696487" cy="567.6623453767783"  r="5"  fill="none" stroke="blue"/>
+<circle cx="411.97091519649" cy="323.6278478965687"  r="5"  fill="none" stroke="blue"/>
+<circle cx="188.43247303546792" cy="563.2488260116721"  r="5"  fill="none" stroke="red"/>
+<circle cx="410.42618361248736" cy="328.6038057092136"  r="5"  fill="none" stroke="red"/>
+<circle cx="93.986099755022" cy="756.6650130403325"  r="5"  fill="none" stroke="red"/>
+<circle cx="641.3885701795596" cy="205.09357851904736"  r="5"  fill="none" stroke="red"/>
+<circle cx="241.58217546288967" cy="482.4581963663853"  r="5"  fill="none" stroke="red"/>
+<circle cx="336.91643146495124" cy="391.6472788613851"  r="5"  fill="none" stroke="red"/>
+<circle cx="193.8410965710897" cy="551.7871571833829"  r="5"  fill="none" stroke="red"/>
+<circle cx="409.19957826374736" cy="340.1508080122069"  r="5"  fill="none" stroke="red"/>
+<circle cx="114.96567974597464" cy="674.0790291108492"  r="5"  fill="none" stroke="red"/>
+<circle cx="540.658341809993" cy="229.5850619191183"  r="5"  fill="none" stroke="red"/>
+<text x=" 530" y=" 1110" fill="none" font-size="2em" stroke="red" >2</text>
+</svg>
