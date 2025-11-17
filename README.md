@@ -5,7 +5,7 @@ Le programme crée un fichier pour chaque plan d'intersection, avec la position 
 la découpe laser. Il crée aussi des fichiers images, où chaque plan contient les numéros des points d'intersection, dans l'ordre de la courbe (répertoire numerotage). 
 
 Autres répertoires: 
-doc : Un fichier d'explication en tex, et un sous-répertoire avec des photos. 
-Rhino : l'attracteur pour l'afficher dans Rhion (modéliseur 3D)
-sources : Les sources python
-Vision3D : des images. 
+1.doc : Un fichier d'explication en tex, et un sous-répertoire avec des photos. 
+2.Rhino : l'attracteur pour l'afficher dans Rhion (modéliseur 3D)
+3.sources : Les sources python
+4.Vision3D : des images. 
