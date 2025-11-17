@@ -6,6 +6,6 @@ la découpe laser. Il crée aussi des fichiers images, où chaque plan contient 
 
 Autres répertoires: 
 1. doc : Un fichier d'explication en tex, et un sous-répertoire avec des photos. 
-2. Rhino : l'attracteur pour l'afficher dans Rhion (modéliseur 3D)
+2. Rhino : l'attracteur pour l'afficher dans Rhino (modéliseur 3D)
 3. sources : Les sources python
 4. Vision3D : des images. 
