@@ -40,7 +40,7 @@ ordre2=0
 debut=-15
 fin=22
 
-# Les deux listes qui stockent les poisitions des trous de pasage dans les plans pour chaque courbe. 
+# Les deux listes qui stockent les positions des trous de passage dans les plans pour chaque courbe. 
 traces=[[] for i in range(nbtranches)]
 traces2=[[] for i in range(nbtranches)]
 
@@ -78,12 +78,12 @@ def lorenz(xyz, *, s=10, r=28, b=2.667):
 
 # Une liste pour stocker les points de la courbe
 xyzs = np.empty((num_steps + 1, 3))  # Need one more for the initial values
-xyzs[0] = (0., 1., 1.05)  # Set initial values
+xyzs[0] = (3., 2., 1.05)  # Set initial values
 
 # Pareil pour la deuxième courbe
 xyzs2 = np.empty((num_steps + 1, 3))  # Need one more for the initial values
 # On a changé les conditions initiales
-xyzs2[0] = (0.5, 1., 1.05)  # Set initial values
+xyzs2[0] = (20,20,20)  # Set initial values
 
 # Step through "time", calculating the partial derivatives at the current point
 # and using them to estimate the next point

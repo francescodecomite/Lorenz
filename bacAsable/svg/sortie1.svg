@@ -1,17 +1,19 @@
 <svg viewBox="0 0 1020 1020" xmlns="http://www.w3.org/2000/svg">
-<polygon points="10,10 1010,10 1010,1210 10,1210 10,1110 510,1110 510,1010 10,1010" fill="none"  stroke="lime" /><circle cx="185.9296083062595" cy="456.2212982381004"  r="5"  fill="none" stroke="blue"/>
-<circle cx="330.0984268737929" cy="314.3268601030627"  r="5"  fill="none" stroke="blue"/>
-<circle cx="169.49727533767825" cy="463.04833749147906"  r="5"  fill="none" stroke="blue"/>
-<circle cx="352.73581860928317" cy="293.6538912346624"  r="5"  fill="none" stroke="blue"/>
-<circle cx="181.69841987537117" cy="469.0561321661462"  r="5"  fill="none" stroke="blue"/>
-<circle cx="342.92819378588393" cy="311.0791906428931"  r="5"  fill="none" stroke="blue"/>
-<circle cx="192.61112173091132" cy="441.6729533370284"  r="5"  fill="none" stroke="red"/>
-<circle cx="343.84868238221486" cy="315.94594747181316"  r="5"  fill="none" stroke="red"/>
-<circle cx="47.04980579865009" cy="673.3015659655766"  r="5"  fill="none" stroke="red"/>
-<circle cx="604.0024773233098" cy="166.77340528172454"  r="5"  fill="none" stroke="red"/>
-<circle cx="203.03241171760806" cy="436.8377483061412"  r="5"  fill="none" stroke="red"/>
-<circle cx="325.83534408301864" cy="328.4386167454736"  r="5"  fill="none" stroke="red"/>
-<circle cx="85.06753230455028" cy="598.8878725978516"  r="5"  fill="none" stroke="red"/>
-<circle cx="505.27939173034866" cy="204.60634168046101"  r="5"  fill="none" stroke="red"/>
+<polygon points="10,10 1010,10 1010,1210 10,1210 10,1110 510,1110 510,1010 10,1010" fill="none"  stroke="lime" /><circle cx="157.0883112631248" cy="444.7613117410267"  r="5"  fill="none" stroke="blue"/>
+<circle cx="283.7016925389577" cy="324.6722431457524"  r="5"  fill="none" stroke="blue"/>
+<circle cx="20.969759235348867" cy="589.5621169552896"  r="5"  fill="none" stroke="blue"/>
+<circle cx="519.5399033374496" cy="200.004353366562"  r="5"  fill="none" stroke="blue"/>
+<circle cx="112.16790628816214" cy="500.23905506236815"  r="5"  fill="none" stroke="blue"/>
+<circle cx="350.93677851250044" cy="278.1285304497769"  r="5"  fill="none" stroke="blue"/>
+<circle cx="151.98756349574495" cy="440.0582919740134"  r="5"  fill="none" stroke="blue"/>
+<circle cx="312.9186083147628" cy="312.81052201290663"  r="5"  fill="none" stroke="blue"/>
+<circle cx="126.48514486554915" cy="486.4116161549763"  r="5"  fill="none" stroke="red"/>
+<circle cx="325.746032039245" cy="293.5597361182306"  r="5"  fill="none" stroke="red"/>
+<circle cx="171.44988087732898" cy="424.8243282715472"  r="5"  fill="none" stroke="red"/>
+<circle cx="281.9139281782208" cy="332.1057920026815"  r="5"  fill="none" stroke="red"/>
+<circle cx="48.41469914279902" cy="594.5941771166544"  r="5"  fill="none" stroke="red"/>
+<circle cx="468.4459931995202" cy="210.0673750296138"  r="5"  fill="none" stroke="red"/>
+<circle cx="77.8104660560721" cy="548.3343361372933"  r="5"  fill="none" stroke="red"/>
+<circle cx="412.85274451140884" cy="242.8027788665221"  r="5"  fill="none" stroke="red"/>
 <text x=" 530" y=" 1110" fill="none" font-size="2em" stroke="red" >1</text>
 </svg>

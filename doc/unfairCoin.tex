@@ -1,0 +1,166 @@
+% -----------------------------------------------------------------------------
+% June 1, 2016
+% This file contains a sample Bridges paper in LaTeX format.
+% It has been prepared by Doug McKenna, using previous
+% versions by Craig Kaplan, Reza Sarhangi, and others.
+% It has been vetted using TeXShop 2.36 on Mac OS X (10.6).
+% TeXShop is part of the TeX Live distribution, available
+% at http://www.tug.org/texlive/
+%
+% -----------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+\usepackage{amsmath, amsthm, amssymb}    % May not all be necessary
+\usepackage{bridges}                     % Custom bridges proceedings style
+\usepackage{graphicx}                    % For including pictures
+\usepackage{hyperref}                    % For formatting (clickable) URLs
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry,multicol}
+%\usepackage[francais]{babel}
+\usepackage{color}
+\usepackage{listings}
+\parindent=0pt
+
+
+\usepackage{color}
+% -----------------------------------------------------------------------------
+
+\title{Guessing an Unfair Coin}
+
+\author{Francesco De Comité}
+
+
+% \date{[Draft as of \today]}	% For your own draft purposes
+\date{}				% Suppress any date on submissions
+
+% -----------------------------------------------------------------------------
+
+
+%\newcounter{pattern}
+%\renewcommand{\thepattern}{Drawing patterns}
+\def\nbrebase#1#2{\ensuremath{\overline{\mathtt{#2}\raisebox{2.2mm}{}}_{#1}}}
+
+\begin{document}
+
+\maketitle
+\vspace{-1.2cm}
+
+% Prevent page number 1 from being printed on the first page.
+\thispagestyle{empty}
+
+
+
+\section*{The question}
+In front of you are three coins, identical in appearance. However, while two of them are fair coins, the third comes up Heads 75\% of time. Your task is to identify which coin is the unfair one, but you may only perform a total of three coins flips ! (For each flip, you can flip any coin you want, taking any past flip results into account).) After those three flips, you must declare which coin you believe to be the unfair one. 
+
+Assuming you ``play optimally'', what is the likelihood that you will correctly identify the unfair coin after your three flips ? 
+
+In order to generalize, I will assume that the probability of coming up Heads is $p>0.5$.
+
+
+\section*{My solution}
+For the three flips I am allowed to perform, I choose to flip each coin once. Naming the unfair coin $A$, you have three equiprobable configurations : 
+\begin{itemize}
+\item $A,B,B$ named $C_1$ in the following. 
+\item $B,A,B$ named $C_2$
+\item $B,B,A$ named $C_3$
+\end{itemize}
+
+Each configuration has eight possible outputs, with different probabilities according to the configuration.
+\renewcommand{\arraystretch}{1.5}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Flips &$C_1$&$C2$&$C_3$&$(C_1+C_2+C_3)\over{3}$\\ \hline
+Head,Head,Head&$p\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$\frac{p}{4}$\\ \hline
+Head,Head,Tail &$p\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$\frac{p+1}{4\times 3}$ \\ \hline
+Head,Tail,Head &$p\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$\frac{p+1}{4\times 3}$  \\ \hline
+Head,Tail,Tail &$p\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$\frac{2-p}{4\times 3}$  \\ \hline
+Tail,Head,Head &$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$\frac{p+1}{4\times 3}$ \\ \hline
+Tail,Head,Tail &$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$p\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$& $\frac{2-p}{4\times 3}$ \\ \hline
+Tail,Tail,Head &$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$& $p\times \frac{1}{2}\times \frac{1}{2}$&$\frac{2-p}{4\times 3}$ \\ \hline
+Tail,Tail,Tail &$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$&$(1-p)\times \frac{1}{2}\times \frac{1}{2}$ &$\frac{1-p}{4}$\\ \hline\hline
+Total proba&1&1&1&1\\ \hline
+\end{tabular}
+\end{center}
+
+If the flip result is either Head,Head,Head of Tail,Tail,Tail, the best guess is random, and you make the correct guess with probability $\frac{1}{3}$. This case occurs with probability $\frac{1}{4}$.
+
+
+\section*{Two Heads, One Tail}
+If the result is Head,Head,Tail : 
+\begin{itemize}
+\item If we are in configuration $C_1$, the probability of obtaining this draw is $\frac{p}{4}$. 
+\item Same if we are in configuration $C_2$. 
+\item In configuration $C_3$, the probability of this draw is $\frac{(1-p)}{4}$
+\end{itemize}
+So, if we observe Head,Head,Tail there is a chance equal to  : 
+$$\frac{1}{3}\times\frac{p}{4}\times \frac{4\times 3}{p+1}=\frac{p}{p+1}$$
+to be in configuration $C_1$.
+
+The same chance if we are in $C_2$, and a probability of ${1-p}\over{p+1}$ of being in $C_3$.
+
+Consider the two configurations with Head : we are in one of those configurations with probability $\frac{2\times p}{p+1}$.
+
+Choose one of the coin which flips to Head gives you a chance of $\frac{p}{p+1}$ of guessing right. 
+
+And $\frac{p}{p+1} \ge \frac{1}{3}$ as soon as $p \ge \frac{1}{2}$.
+
+The same reasoning holds for all the draws with two heads
+
+\section*{Two Tails, One Head}
+
+Let's look at draw with two tails, a case which occurs with probability $\frac{2-p}{4}$.
+
+Take  for example Head,Tail,Tail
+\begin{itemize}
+\item If we are in configuration $C_1$, the probability of obtaining this draw is $\frac{p}{4}$. 
+\item In configuration $C_2$, the probability of this draw is $\frac{(1-p)}{4}$
+\item In configuration $C_3$, the probability of this draw is $\frac{(1-p)}{4}$
+\end{itemize}
+
+Let us compute the probability of being in each configurations if we observe Head,Tail,Tail. 
+
+\begin{itemize}
+\item For configuration $C_1$ : $\frac{p}{4}\times \frac{4}{2-p}=\frac{p}{2-p}$. 
+\item For configurations $C_2$ and $C_3$ :  $\frac{1-p}{4}\times \frac{4}{2-p}=\frac{1-p}{2-p}$. 
+\end{itemize}
+
+If you identify the first coin as being the unfair one, you will guess right with probability  $\frac{p}{2-p}$, which is greater than $\frac{1}{3}$ as soon as $p\ge \frac{1}{2}$
+
+Applying the same reasoning for all the draws with two tails gives the same result. 
+
+\section*{Conclusion}
+\begin{itemize}
+\item In case of {\tt Head,Head,Head} or {\tt Tails,Tails,Tails}, pick a coin at random, with a probability of $\frac{1}{3}$ of wining. 
+\item When the draw contains two heads, pick on of the head coin at random, leading to a probability of  $\frac{p}{p+1}$ of winning.
+\item When the draw contains two tails, choose the head, with a probability of $\frac{p}{2-p}$ of winning. 
+\end{itemize}
+
+In conclusion, this strategy is equivalent to random guessing in $\frac{1}{4}$ of the cases, and better than random in all other cases. More precisely, the probability can be computed the following way : 
+\begin{itemize}
+\item {\tt Head,Head,Head}:  probability $\frac{p}{4}$, correct guess $\frac{1}{3}$
+\item Two heads, on tail : probability $\frac{p+1}{4}$, correct guess $\frac{p}{p+1}$
+\item One head, two tails : probability  $\frac{2-p}{4}$, correct guess $\frac{p}{2-p}$
+\item Three tails : probability $\frac{1-p}{4}$, corect guess $\frac{1}{3}$
+\end{itemize}
+
+Which leads to a average probability of right guessing : 
+
+$$\frac{p}{4}\times \frac{1}{3} +\frac{p+1}{4}\times \frac{p}{p+1} +\frac{2-p}{4}\times \frac{p}{2-p}+\frac{1-p}{4}\times  \frac{1}{3}$$
+
+$$\frac{1}{4}\times \frac{1}{3}+2\times \frac{p}{4}$$
+$$\frac{1}{12}+\frac{p}{2}$$
+$$\frac{1+6\times p}{12}$$
+
+Which is greater than $\frac{1}{3}$ when $p\geq 0.5$
+
+
+
+ 
+ 
+ \end{document}
+
+
